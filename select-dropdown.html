@@ -1,0 +1,10 @@
+<span ng-class="{'form--select':true, 'dropdown--bottom':true, 'dropdown--disabled':disabled}">
+    <button ng-click="triggerSelect()" ng-class="{btn:true, 'btn--dropdown':true, 'btn--dropdown--active':selected}">{{selected || defaultOption}}</button>
+    <svg class="svg-icon icon--dropdown">
+        <use xlink:href="dropdownflechas.svg"></use>
+    </svg> 
+    <ul class="dropwdown__menu" ng-show="collapsed === false">
+        <li ng-repeat="item in options" ng-click="selectOption(item)" class="dropdown__menu__item">{{item}}</li>
+    </ul>
+</span>
+

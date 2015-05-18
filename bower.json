@@ -1,0 +1,27 @@
+{
+  "name": "Select-Dropdown-Directive",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dieguezz/Select-Dropdown-Directive",
+  "authors": [
+    "Dieguin <dieguezz@gmail.com>"
+  ],
+  "description": "Directive made to have <select> functionallity in a component for easier layout",
+  "main": "selectDropdown.js",
+  "keywords": [
+    "select",
+    "dropdown",
+    "angularjs",
+    "directive"
+  ],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.0.6"
+  }
+}
